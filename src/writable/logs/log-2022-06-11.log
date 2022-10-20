@@ -1,0 +1,608 @@
+CRITICAL - 2022-06-11 03:45:14 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-06-11 03:45:47 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(71): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-06-11 03:46:54 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(71): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-06-11 10:14:24 --> Undefined variable $baseURL
+in APPPATH\Views\templates\header.php on line 31.
+ 1 APPPATH\Views\templates\header.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $baseURL', 'APPPATH\\Views\\templates\\header.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Main.php(10): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 10:15:32 --> Undefined variable $baseURL
+in APPPATH\Views\templates\header.php on line 31.
+ 1 APPPATH\Views\templates\header.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $baseURL', 'APPPATH\\Views\\templates\\header.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Main.php(10): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 10:15:40 --> Undefined variable $baseURL
+in APPPATH\Views\templates\header.php on line 31.
+ 1 APPPATH\Views\templates\header.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $baseURL', 'APPPATH\\Views\\templates\\header.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Main.php(10): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 10:17:55 --> Undefined variable $baseURL
+in APPPATH\Views\templates\header.php on line 31.
+ 1 APPPATH\Views\templates\header.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $baseURL', 'APPPATH\\Views\\templates\\header.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Main.php(10): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 10:18:09 --> Undefined variable $baseURL
+in APPPATH\Views\templates\header.php on line 31.
+ 1 APPPATH\Views\templates\header.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $baseURL', 'APPPATH\\Views\\templates\\header.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Main.php(10): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 10:25:49 --> Undefined property: CodeIgniter\View\View::$input
+in APPPATH\Views\crud\create.php on line 12.
+ 1 APPPATH\Views\crud\create.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$input', 'APPPATH\\Views\\crud\\create.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crud\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/create', [], true)
+ 5 APPPATH\Controllers\Main.php(18): view('crud/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 10:27:29 --> Undefined variable $request
+in APPPATH\Controllers\Main.php on line 17.
+ 1 APPPATH\Controllers\Main.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Main.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->create()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 10:28:27 --> Undefined variable $request
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->create()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 10:30:19 --> Undefined variable $request
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->create()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 10:34:08 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\crud\create.php on line 12.
+ 1 APPPATH\Views\crud\create.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\crud\\create.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crud\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/create', [], true)
+ 5 APPPATH\Controllers\Main.php(19): view('crud/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 10:36:41 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\crud\create.php on line 12.
+ 1 APPPATH\Views\crud\create.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\crud\\create.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crud\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/create', [], true)
+ 5 APPPATH\Controllers\Main.php(19): view('crud/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->create()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:10:41 --> Class "App\Controllers\CrudModel" not found
+in APPPATH\Controllers\Main.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->save()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:11:18 --> Class "App\Controllers\CrudModel" not found
+in APPPATH\Controllers\Main.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->save()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:11:34 --> Class "App\Controllers\CrudModel" not found
+in APPPATH\Controllers\Main.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->save()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-11 11:13:22 --> Error connecting to the database: Unknown database 'dummy_db'
+CRITICAL - 2022-06-11 11:13:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dummy_db'
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact_details` (`firstname`, `middlename`, `lastname`, `gender`, `contact`, `email`, `address`) VALUES (:firstname:, :middlename:, :lastname:, :gender:, :contact:, :email:, :address:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->save()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-11 11:13:28 --> Error connecting to the database: Unknown database 'dummy_db'
+CRITICAL - 2022-06-11 11:13:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dummy_db'
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact_details` (`firstname`, `middlename`, `lastname`, `gender`, `contact`, `email`, `address`) VALUES (:firstname:, :middlename:, :lastname:, :gender:, :contact:, :email:, :address:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->save()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-11 11:14:42 --> Error connecting to the database: Unknown database 'dummy_db'
+CRITICAL - 2022-06-11 11:14:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dummy_db'
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact_details` (`firstname`, `middlename`, `lastname`, `gender`, `contact`, `email`, `address`) VALUES (:firstname:, :middlename:, :lastname:, :gender:, :contact:, :email:, :address:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->save()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-11 11:15:34 --> Error connecting to the database: Unknown database 'dummy_db'
+CRITICAL - 2022-06-11 11:15:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dummy_db'
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact_details` (`firstname`, `middlename`, `lastname`, `gender`, `contact`, `email`, `address`) VALUES (:firstname:, :middlename:, :lastname:, :gender:, :contact:, :email:, :address:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->save()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-11 11:15:48 --> Error connecting to the database: Unknown database 'dummy_db'
+CRITICAL - 2022-06-11 11:15:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dummy_db'
+in SYSTEMPATH\Database\BaseConnection.php on line 415.
+ 1 SYSTEMPATH\Database\BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact_details` (`firstname`, `middlename`, `lastname`, `gender`, `contact`, `email`, `address`) VALUES (:firstname:, :middlename:, :lastname:, :gender:, :contact:, :email:, :address:)', [...], false)
+ 3 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->save()
+ 8 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:16:59 --> Call to undefined method App\Models\CrudModel::affected_rows
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Main.php(39): CodeIgniter\Model->__call('affected_rows', [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->save()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-11 11:18:46 --> Column 'address' cannot be null
+CRITICAL - 2022-06-11 11:18:46 --> Column 'address' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `contact_details` (`firstname`, `middlename`, `lastname`, `gender`, `contact`, `email`, `address`) VALUES (\'Mark\', \'D\', \'Cooper\', \'Male\', \'09123456789\', \'mcooper@mail.com\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `contact_details` (`firstname`, `middlename`, `lastname`, `gender`, `contact`, `email`, `address`) VALUES (\'Mark\', \'D\', \'Cooper\', \'Male\', \'09123456789\', \'mcooper@mail.com\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `contact_details` (`firstname`, `middlename`, `lastname`, `gender`, `contact`, `email`, `address`) VALUES (\'Mark\', \'D\', \'Cooper\', \'Male\', \'09123456789\', \'mcooper@mail.com\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact_details` (`firstname`, `middlename`, `lastname`, `gender`, `contact`, `email`, `address`) VALUES (:firstname:, :middlename:, :lastname:, :gender:, :contact:, :email:, :address:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->save()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-11 11:19:16 --> Column 'address' cannot be null
+CRITICAL - 2022-06-11 11:19:16 --> Column 'address' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `contact_details` (`firstname`, `middlename`, `lastname`, `gender`, `contact`, `email`, `address`) VALUES (\'Mark\', \'D\', \'Cooper\', \'Male\', \'09123456789\', \'mcooper@mail.com\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(678): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `contact_details` (`firstname`, `middlename`, `lastname`, `gender`, `contact`, `email`, `address`) VALUES (\'Mark\', \'D\', \'Cooper\', \'Male\', \'09123456789\', \'mcooper@mail.com\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `contact_details` (`firstname`, `middlename`, `lastname`, `gender`, `contact`, `email`, `address`) VALUES (\'Mark\', \'D\', \'Cooper\', \'Male\', \'09123456789\', \'mcooper@mail.com\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contact_details` (`firstname`, `middlename`, `lastname`, `gender`, `contact`, `email`, `address`) VALUES (:firstname:, :middlename:, :lastname:, :gender:, :contact:, :email:, :address:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Main.php(38): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->save()
+10 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:22:17 --> Undefined property: App\Controllers\Main::$session
+in APPPATH\Controllers\Main.php on line 40.
+ 1 APPPATH\Controllers\Main.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Main::$session', 'APPPATH\\Controllers\\Main.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->save()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:22:39 --> Undefined property: App\Controllers\Main::$session
+in APPPATH\Controllers\Main.php on line 40.
+ 1 APPPATH\Controllers\Main.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Main::$session', 'APPPATH\\Controllers\\Main.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->save()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:26:12 --> syntax error, unexpected token "protected", expecting ";" or "{"
+in APPPATH\Controllers\Main.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:31:07 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\crud\home.php on line 5.
+ 1 APPPATH\Views\crud\home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\crud\\home.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crud\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/home', [], true)
+ 5 APPPATH\Controllers\Main.php(17): view('crud/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:32:39 --> Undefined variable $session
+in APPPATH\Views\crud\home.php on line 5.
+ 1 APPPATH\Views\crud\home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\crud\\home.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crud\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/home', [], true)
+ 5 APPPATH\Controllers\Main.php(18): view('crud/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:47:02 --> Undefined property: App\Controllers\Main::$model
+in APPPATH\Controllers\Main.php on line 56.
+ 1 APPPATH\Controllers\Main.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Main::$model', 'APPPATH\\Controllers\\Main.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->list()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:48:27 --> Undefined property: App\Controllers\Main::$model
+in APPPATH\Controllers\Main.php on line 56.
+ 1 APPPATH\Controllers\Main.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Main::$model', 'APPPATH\\Controllers\\Main.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->list()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:50:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Views\crud\list.php on line 7.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/list', [], true)
+ 4 APPPATH\Controllers\Main.php(58): view('crud/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->list()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:50:10 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$num_rows
+in APPPATH\Views\crud\list.php on line 7.
+ 1 APPPATH\Views\crud\list.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$num_rows', 'APPPATH\\Views\\crud\\list.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crud\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/list', [], true)
+ 5 APPPATH\Controllers\Main.php(58): view('crud/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->list()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:50:29 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\crud\list.php on line 7.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/list', [], true)
+ 4 APPPATH\Controllers\Main.php(58): view('crud/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->list()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:50:38 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$num_rows
+in APPPATH\Views\crud\list.php on line 7.
+ 1 APPPATH\Views\crud\list.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$num_rows', 'APPPATH\\Views\\crud\\list.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crud\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/list', [], true)
+ 5 APPPATH\Controllers\Main.php(58): view('crud/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->list()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:51:33 --> Cannot access protected property CodeIgniter\Database\MySQLi\Result::$numRows
+in APPPATH\Views\crud\list.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/list', [], true)
+ 4 APPPATH\Controllers\Main.php(58): view('crud/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->list()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 11:52:22 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$countAllResults
+in APPPATH\Views\crud\list.php on line 8.
+ 1 APPPATH\Views\crud\list.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$countAllResults', 'APPPATH\\Views\\crud\\list.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crud\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/list', [], true)
+ 5 APPPATH\Controllers\Main.php(58): view('crud/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->list()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 12:46:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Controllers\Main.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->list()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 12:46:53 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$result_array
+in APPPATH\Controllers\Main.php on line 56.
+ 1 APPPATH\Controllers\Main.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$result_array', 'APPPATH\\Controllers\\Main.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->list()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 12:48:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultArray()
+in APPPATH\Controllers\Main.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->list()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 12:50:44 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$num_rows
+in APPPATH\Controllers\Main.php on line 57.
+ 1 APPPATH\Controllers\Main.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$num_rows', 'APPPATH\\Controllers\\Main.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->list()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 12:50:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Controllers\Main.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->list()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:01:14 --> Cannot use object of type stdClass as array
+in APPPATH\Views\crud\list.php on line 28.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/list', [], true)
+ 4 APPPATH\Controllers\Main.php(58): view('crud/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->list()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:16:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Controllers\Main.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->edit('4')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:19:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResult()
+in APPPATH\Controllers\Main.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->edit('4')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:21:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::numRows()
+in APPPATH\Controllers\Main.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->edit('4')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:21:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Controllers\Main.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->edit('4')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:22:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+in APPPATH\Controllers\Main.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->edit('4')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:23:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Controllers\Main.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->edit('4')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:24:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+in APPPATH\Controllers\Main.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->edit('4')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:25:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResult()
+in APPPATH\Controllers\Main.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->edit('4')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:26:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultID()
+in APPPATH\Controllers\Main.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->edit('4')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:28:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Controllers\Main.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->edit('4')
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:30:18 --> Undefined variable $request
+in APPPATH\Views\crud\edit.php on line 12.
+ 1 APPPATH\Views\crud\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Views\\crud\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crud\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/edit', [], true)
+ 5 APPPATH\Controllers\Main.php(70): view('crud/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:30:39 --> Undefined variable $request
+in APPPATH\Views\crud\edit.php on line 12.
+ 1 APPPATH\Views\crud\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Views\\crud\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crud\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/edit', [], true)
+ 5 APPPATH\Controllers\Main.php(70): view('crud/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:33:58 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Main.php(45): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->save()
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:36:45 --> Undefined property: App\Controllers\Main::$model
+in APPPATH\Controllers\Main.php on line 85.
+ 1 APPPATH\Controllers\Main.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Main::$model', 'APPPATH\\Controllers\\Main.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->delete('5')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:36:54 --> Undefined property: App\Controllers\Main::$model
+in APPPATH\Controllers\Main.php on line 85.
+ 1 APPPATH\Controllers\Main.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Main::$model', 'APPPATH\\Controllers\\Main.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->delete('5')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:37:19 --> Undefined property: App\Controllers\Main::$model
+in APPPATH\Controllers\Main.php on line 85.
+ 1 APPPATH\Controllers\Main.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Main::$model', 'APPPATH\\Controllers\\Main.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->delete('5')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:38:39 --> Too few arguments to function App\Controllers\Main::view(), 0 passed in D:\xampp\htdocs\ci4_crud\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Main.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->view()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:39:01 --> Too few arguments to function App\Controllers\Main::view_details(), 0 passed in D:\xampp\htdocs\ci4_crud\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Main.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->view_details()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-11 13:49:50 --> Call to undefined function base_irl()
+in APPPATH\Views\crud\edit.php on line 45.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crud/edit', [], true)
+ 4 APPPATH\Controllers\Main.php(77): view('crud/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Main->edit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

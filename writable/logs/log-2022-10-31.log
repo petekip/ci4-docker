@@ -1,0 +1,15 @@
+ERROR - 2022-10-31 02:34:23 --> Error connecting to the database: Operation timed out
+CRITICAL - 2022-10-31 02:34:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Operation timed out
+in SYSTEMPATH/Database/BaseConnection.php on line 415.
+ 1 SYSTEMPATH/Database/BaseConnection.php(585): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `contact_details`
+ORDER BY date(date_created) ASC', [], false)
+ 3 SYSTEMPATH/Model.php(771): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Main.php(73): CodeIgniter\Model->__call('get', [])
+ 5 SYSTEMPATH/CodeIgniter.php(898): App\Controllers\Main->list()
+ 6 SYSTEMPATH/CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

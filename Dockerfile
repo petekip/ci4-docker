@@ -14,8 +14,7 @@ RUN apt-get update
 RUN docker-php-ext-install intl
 RUN docker-php-ext-configure intl
 RUN a2enmod rewrite
-RUN docker-php-ext-configure gd --with-jpeg-dir=/usr/include/ \
-    && docker-php-ext-install gd
+
 # Restart apache2
 RUN service apache2 restart
 

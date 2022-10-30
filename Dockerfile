@@ -7,7 +7,7 @@ COPY . /var/www/html/
 RUN apt-get update && \
     apt-get install -y
 RUN apt-get install -y curl
-RUN apt-get install -y php8.1-cli php8.1-common php8.1-mysql php8.1-zip php8.1-gd php8.1-mbstring php8.1-curl php8.1-xml php8.1-bcmath
+RUN apt-get install -y php8.1-mysql
 RUN apt-get install -y build-essential libssl-dev zlib1g-dev libpng-dev libjpeg-dev libfreetype6-dev
 RUN apt-get install -y libicu-dev
 

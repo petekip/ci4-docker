@@ -1,4 +1,4 @@
-# CodeIgniter 4 Docker Playground
+# CodeIgniter 4 Development
 
 [![Build Status](https://github.com/codeigniter4/CodeIgniter4/workflows/PHPUnit/badge.svg)](https://github.com/codeigniter4/CodeIgniter4/actions?query=workflow%3A%22PHPUnit%22)
 [![Coverage Status](https://coveralls.io/repos/github/codeigniter4/CodeIgniter4/badge.svg?branch=develop)](https://coveralls.io/github/codeigniter4/CodeIgniter4?branch=develop)
@@ -67,7 +67,20 @@ into the framework roadmap.
 Remember that some components that were part of CodeIgniter 3 are being moved
 to optional packages, with their own repository.
 
+## Contributing
 
+We **are** accepting contributions from the community! It doesn't matter whether you can code, write documentation, or help find bugs, 
+all contributions are welcome. 
+
+Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/contributing/README.md).
+
+CodeIgniter has had thousands on contributions from people since its creation. This project would not be what it is without them. 
+
+<a href="https://github.com/codeigniter4/CodeIgniter4/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=codeigniter4/CodeIgniter4" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
 
 ## Server Requirements
 

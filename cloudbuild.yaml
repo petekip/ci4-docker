@@ -1,0 +1,34 @@
+steps:
+    - name: 'gcr.io/cloud-builders/docker'
+      id: Build docker image
+      args:
+          - 'build'
+          - '--no-cache'
+          - '-t'
+          - '$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME:$COMMIT_SHA'
+          - '.'
+    - name: 'gcr.io/cloud-builders/docker'
+      id: Push docker image to cloud registry
+      args:
+          - 'push'
+          - '$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME:$COMMIT_SHA'
+    - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+      id: Deploy image to cloud run
+      args:
+          - run
+          - services
+          - update
+          - $_SERVICE_NAME
+          - '--platform=managed'
+          - '--image=$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME:$COMMIT_SHA'
+          - '--region=$_DEPLOY_REGION'
+          - '--ingress=all'
+          - '--quiet'
+      entrypoint: gcloud
+options:
+    substitutionOption: ALLOW_LOOSE
+    logging: CLOUD_LOGGING_ONLY
+substitutions:
+    _SERVICE_NAME: codeigniter
+    _DEPLOY_REGION: us-central1
+    _GCR_HOSTNAME: gcr.io

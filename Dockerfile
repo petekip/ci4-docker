@@ -19,7 +19,7 @@ RUN sed -ri -e 's!/var/www/!/var/www/html/public!g' /etc/apache2/apache2.conf /e
 
 # Install Composer
 COPY . .
-COPY composer.json composer.lock ./
+COPY composer.json ./
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer --no-autoloader
 
 

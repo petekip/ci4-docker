@@ -41,7 +41,7 @@ RUN a2enmod rewrite
 # Restart apache2
 RUN service apache2 restart
 
-# Use the PORT environment variable in Apache configuration files.
+# Use the PORT environment variable in Apache configuration files/// opens up port 80 for traffic
 RUN sed -i 's/80/${PORT}/g' /etc/apache2/sites-available/000-default.conf /etc/apache2/ports.conf
 
 
